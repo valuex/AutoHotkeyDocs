@@ -543,5 +543,21 @@ NoAction(*) {
 </pre>
 </div>
 
+<div class="ex" id="ExDllCall">
+<p><a class="ex_number" href="#ExDllCall"></a> Reports the number of items in a menu and the ID of the last item.</p>
+<pre>
+MyMenu := Menu()
+MyMenu.Add "Item 1", NoAction
+MyMenu.Add "Item 2", NoAction
+MyMenu.Add "Item B", NoAction
+
+MyMenu.Name:="str_Menu_Name"
+
+NoAction(*) {
+    <em>; Do nothing.</em>
+}
+</pre>
+</div>
+  
 </body>
 </html>
